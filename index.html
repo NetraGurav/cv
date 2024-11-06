@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netra Gurav</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #e5e5ee8e;
+    }
+
+    header {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #0e1961;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 2.5em;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+
+    h2 {
+        color: #0e1961;
+        padding-bottom: 15px;
+    }
+
+    h3 {
+        color: #0e1961;
+        padding-bottom: 15px;
+        font-size: 20px;
+
+    }
+    h4{
+    color: #0e1961;
+    padding-bottom: 15px;
+    font-size: 15px;
+    }
+    p {
+        color: #0e1961;
+        padding-bottom: 15px;
+        
+    }
+
+    li {
+        color: #0e1961;
+        padding-bottom: 15px;
+        list-style: none;
+    }
+
+    span{
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    section {
+        margin-bottom: 20px;
+        padding: 15px;
+        background: #ffffff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(27, 27, 189, 0.1);
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        width: 49%;
+        margin-bottom: 20px;
+    }
+
+    .skills, .education {
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(27, 27, 189, 0.1);
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    #project{
+        background: #ffffff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(27, 27, 189, 0.1);
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    .project h3{
+        font-size: 20px;
+    }
+
+    .project p{
+        margin: 0;
+        text-align: justify;
+    }
+
+    .job, .school {
+        margin-bottom: 15px;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 0.9em;
+    }
+
+    .card .project {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    a{
+        text-decoration: none;
+        color: rgb(96, 48, 227);
+    }
+    
+
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+        }
+
+        .card {
+            width: 100%;
+            /* margin: 0; */
+        }
+        
+    }
+
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 1.8em;
+        }
+
+        .container {
+            padding: 0px;
+            
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+    }
+</style>
+
+<body>
+    <header>
+        <h1>NETRA GURAV</h1>
+        <p>Belgaum, Karnataka | 8746020025 | <a href=""> netragurav40@gmail.com  </a>| 
+            <a href="https://www.linkedin.com/in/netra-gurav">LinkedIn</a> | 
+            <a href="https://github.com/NetraGurav/NETRA.git">Github</a>
+        </p>
+    </header>
+
+    <section class="summary">
+        <h2>Profile</h2>
+        <p>Versatile Frontend designer with strong skills in front-end and problem-solving Known for delivering efficient solutions in  hackathons and mini-projects with expertise in html, css JavaScript and Python. Looking to contribute to a dynamic team that values innovation, scalability, and user-focused design.</p>
+    
+    </section>
+
+    <div class="container">
+        <div class="card">
+            <div class="skills">
+                <h2>Skills</h2>
+                <div class="skill">
+                    <h3>Programming Languages :  </h3>
+                       <ul><li>Data Structure and Algorithms in C</li>
+                    <li>c++</li>
+                <li>Python(basics)</li>
+            <li>Java(basics)</li></ul>
+                  
+                </div>
+                <div class="skill">
+                    <h3>Web Development :</h3>
+                        <ul><li>Html</li>
+                        <li>CSS</li>
+                    <li>JAVASCRIPT</li></ul>
+                
+                </div>
+                <div class="skill">
+                    <h3>Languages :</h3>
+                        <ul><li>English</li>
+                        <li>Hindi</li>
+                    <li>Marathi</li></ul>
+                
+                </div>
+            </div>
+            <div class="education">
+                <h2>Education</h2>
+                <div class="school">
+                    
+                    <h4>VTU</h4>
+                    <p>JAIN COLLEGE OF ENGINEERING AND RESEARCH</p>
+                </div>
+                <div class="school">
+                    <h4>PUC</h4>
+                    <p>GOVINDRAM SEKSARIA SCIENCE PU COLLEGE | 2022</p>
+                </div>
+                <div class="school">
+                    <h4>KSEEB</h4>
+                    <p>MARATHA MANDAL'S SHRI SIDDHIVINAYAK SCHOOL | 2020</p>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="card" id="project">
+            <h2>Project</h2>
+            <div class="project"><ul>
+              <li> <h3>FAKE SOCIAL ID DETECTION</h3></li> 
+                <p>Developed an AI-powered solution to detect and flag fake profiles by analyzing user behavior and profile attributes. Implemented using  Python and machine learning algorithms to enhance security and user trust.
+                   </p>
+            </div>
+            <div class="project">
+                <li> <h3>ENCRYPTION AND DECRYPTION</h3></li> 
+                <p>Created a secure encryption and decryption system to protect sensitive data. Leveraged technologies Python,to ensure robust data privacy, suitable for applications in secure communications.
+                   .</p>
+            </div>
+            <div class="project">
+                <li> <h3>AGRI-LEARN</h3></li> 
+                <p>Built an interactive, educational platform for farmers to learn best practices in agriculture. Developed using JavaScript,Html,css incorporating multimedia resources and real-time support for enhanced learning outcomes.
+                   </p>
+            </div>
+            <div class="project">
+                <li> <h3>E-LIBRARY</h3></li> 
+                <p>Designed a digital library system that facilitates easy access to educational resources. Integrated search, borrowing, and user tracking functionalities using technologies JavaScript,Html,css to support remote learning and resource accessibility.
+                   </p>
+        </div>
+        <li>  <h3>TAX CALCULATION BASED ON ADHAR-PAN LINKAGE</h3></li> 
+     <p> Developed a system to verify the linkage status of Aadhaar and PAN cards and adjust agent commission rates accordingly. Automated commission adjustments based on linkage status to comply with government requirements, providing a scalable solution for future integration with official databases.</p>
+    </ul></div>
+
+    <section class="experience">
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Intern</h3>
+            <h4>Softmusk Info Pvt. Ltd. | 2023</h4>
+            <ul>
+                <li>Completed an internship in cloud computing, gaining foundational knowledge of Amazon Web Services (AWS) and Microsoft Azure. Developed an understanding of essential cloud services, including AWS EC2 and Azure Virtual Machines, focusing on the basics of deployment, security, and scalability in cloud environments.</li>
+                
+              
+            </ul>
+            <div class="job">
+                
+                <h4>Internship studio| 2024</h4>
+                <ul>
+                    <li>Gaining hands-on experience in front-end and back-end web development, with a focus on creating user-friendly and responsive websites. Actively working with design tools and coding frameworks to develop skills in HTML, CSS, JavaScript, and other web technologies, enhancing both technical and creative capabilities in web design and development.</li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="experience">
+        <h2>Achievement</h2>
+        <div class="job">
+            <h3>Cybersecurity and Digital Forensics Workshop:</h3>
+            <p>Actively participated in the workshop held on the topic <b>Cybersecurity and Digital Forensics</b> and Gained foundational knowledge in cybersecurity through hands-on learning in Kali Linux, Metasploitable, and various security tools. Covered essential concepts in digital forensics and explored tools for vulnerability assessment, network security, and ethical hacking techniques.</p>
+            
+        </div>
+        <div class="job">
+            <h3>Business Management Seminar | IIT Dharwad | 2024</h3>
+            <p>Attended a seminar on managing business aspects, covering key topics such as B2B, B2C, and C2C models, along with insights into share management and business strategy.</p>
+            
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Netra. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
